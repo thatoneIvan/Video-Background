@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK TO FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/6330e70a88.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Video Background</title>
+    
+
+</head>
+<body>
+    <!-- SHORTHAND: section#main  example below -->
+    <!-- <section id="main"></section> -->
+    <section id="main">
+        <!-- Shorthand: #video-container -->
+        <div id="video-container">
+            <!-- Autoplay starts the video. loop causes the video to continuously loop through the video. Muted removes any sound/audio from the video -->
+            <video src="Media/html.mp4" Autoplay loop muted></video>
+        </div>    
+        <!-- Div to cover/darken video -->
+        <div id="cover"></div>    
+        <div id="content">
+            <h1>Ivan H. Sanchez</h1>
+            <h2>Web Developer</h2>
+            <!-- Setting the href value to an ID will take the user to the element with that ID on the webpage -->
+            <a href="about" id="click">About</a>
+        </div>
+    </section>
+            
+    <section id="about">
+        <h1>About</h1>
+        <p>Currently Enrolled in the Commonwealth Coders Web Developer Program</p>
+        <h2>Follow me on social media</h2>
+        <div>
+            <a href="https://twitter.com/IvanhSanchez">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://twitter.com/IvanhSanchez">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/IvanhSanchez">
+                <i class="fab fa-instagram"></i>
+            </a>
+            
+        </div>
+    </section>
+</body>
+</html>
